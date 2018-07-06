@@ -12,5 +12,7 @@ function distanceFromHqInFeet (location) {
 }
 
 function distanceTravelledInFeet (a, b) {
-  
+  if (a > b) {
+    return (a - b) * 264;
+  }
 }
