@@ -18,3 +18,7 @@ function distanceTravelledInFeet (a, b) {
     return (b - a) * 264;
   }
 }
+
+function calculatesFarePrice (a , b) {
+  if function distanceTravelledInFeet(a, b) < 400
+}
