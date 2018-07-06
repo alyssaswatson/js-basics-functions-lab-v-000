@@ -8,9 +8,5 @@ function distanceFromHqInBlocks (location) {
 }
 
 function distanceFromHqInFeet (location) {
-  if (location > 42) {
-    return location - 42;
-  } else {
-    return 42 - location;
-  }
+  distanceFromHqInBlocks(location;
 }
